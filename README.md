@@ -47,7 +47,7 @@ public class Usuario
     public string Telefone { get;  set; }
 }
 
-public class Produto : Entity
+public class Produto
 {
     public Guid Id { get;  set; }
     public string Nome { get;  set; }
