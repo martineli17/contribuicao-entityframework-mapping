@@ -2,7 +2,7 @@
 
 Ao utilizar o Entity Framework, para conseguirmos relacionar uma tabela de banco de dados à uma classe, precisamos implementar este relacionamento.<br/>
 Para isso, realizamos o 'mapping' da classe (conhecida mais especificamente como ENTIDADE) com a tabela através de algumas configurações do Entity Framework.<br/>
-O maoeamento é simples, mas ao mesmo tempo bastante completo em quesitos de configurações possíveis.<br/>
+O mapeamento é simples, mas ao mesmo tempo bastante completo em quesitos de configurações possíveis.<br/>
 Com ele temos, dentro de várias outras, a possibilidade de: <br/>
 - Realizar relacionamentos entre entidades
 - Especificar o tipo da coluna
