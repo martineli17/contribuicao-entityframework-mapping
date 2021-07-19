@@ -3,7 +3,7 @@
 Ao utilizar o Entity Framework, para conseguirmos relacionar uma tabela de banco de dados à uma classe, precisamos implementar este relacionamento.<br/>
 Para isso, realizamos o 'mapping' da classe (conhecida mais especificamente como ENTIDADE) com a tabela através de algumas configurações do Entity Framework.<br/>
 O maoeamento é simples, mas ao mesmo tempo bastante completo em quesitos de configurações possíveis.<br/>
-Com ele, temos, dentro de várias outras, a possibilidade de: <br/>
+Com ele temos, dentro de várias outras, a possibilidade de: <br/>
 - Realizar relacionamentos entre entidades
 - Especificar o tipo da coluna
 - Nome da tabela referente aquela entidade
@@ -14,9 +14,7 @@ Com ele, temos, dentro de várias outras, a possibilidade de: <br/>
 
 ### Ok, mas como isso é feito?
 Suponhamos que temos três entidades:
-- Usuario
-- Compra
-- CompraProduto
+
 ```c#
 public class Compra
 {
