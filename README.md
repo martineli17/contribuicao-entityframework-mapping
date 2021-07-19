@@ -144,12 +144,12 @@ Então vamos criar o nosso contexto:
         }
     }
 ```
-Explicações:
--DbSet<Type> -> Ajuda a acessarmos mais rapidamente as nossas tabelas. Podemos ter um para cada tabela.
--builder.ApplyConfigurationsFromAssembly(GetType().Assembly) -> Executa, de maneira mais automatizada, as configurações de mapeamento do Assembly corrente, evitando que tenhamos que colocar manualmente cada mapeamento para ser aplicado.
+##### Explicações:
+- DbSet<Type> -> Ajuda a acessarmos mais rapidamente as nossas tabelas. Podemos ter um para cada tabela.
+- builder.ApplyConfigurationsFromAssembly(GetType().Assembly) -> Executa, de maneira mais automatizada, as configurações de mapeamento do Assembly corrente, evitando que tenhamos que colocar manualmente cada mapeamento para ser aplicado.
     
 #### Pacotes necessários:
--microsoft.entityframeworkcore
--microsoft.entityframeworkcore.design
--microsoft.entityframeworkcore.relational
--microsoft.entityframeworkcore.tools
+- microsoft.entityframeworkcore
+- microsoft.entityframeworkcore.design
+- microsoft.entityframeworkcore.relational
+- microsoft.entityframeworkcore.tools
