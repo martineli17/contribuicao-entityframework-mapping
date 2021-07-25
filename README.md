@@ -101,7 +101,7 @@ public class ProdutoMapping : IEntityTypeConfiguration<Produto>
     {
         builder.ToTable("PRODUTO");
         builder.HasKey(x => x.Id);
-        builder.Property(x => x.DataCriacao).HasColumnName("DARACRIACAO").IsRequired();
+        builder.Property(x => x.DataCriacao).HasColumnName("DATACRIACAO").IsRequired();
         //NOME DA COLUNA, NÃO PODE SER NULA E SETADO O TIPO ESPECÍFICO COMO VARCHAR(100) 
         builder.Property(x => x.Nome).HasColumnName("NOME").HasColumnType("VARCHAR(100)").IsRequired();
         builder.Property(x => x.Imagem).HasColumnName("IMAGEM").IsRequired();
@@ -115,7 +115,7 @@ public class UsuarioMapping : IEntityTypeConfiguration<Usuario>
     {
         builder.ToTable("USUARIO");
         builder.HasKey(x => x.Id);
-        builder.Property(x => x.DataCriacao).HasColumnName("DARACRIACAO").IsRequired();
+        builder.Property(x => x.DataCriacao).HasColumnName("DATACRIACAO").IsRequired();
         builder.Property(x => x.Nome).HasColumnName("NOME").HasColumnType("VARCHAR(100)").IsRequired();
         builder.Property(x => x.Telefone).HasColumnName("TELEFONE").HasColumnType("VARCHAR(15)").IsRequired();
         builder.Property(x => x.Email).HasColumnName("EMAIL").HasColumnType("VARCHAR(100)").IsRequired();
